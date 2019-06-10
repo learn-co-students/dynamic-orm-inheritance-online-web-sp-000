@@ -1,10 +1,12 @@
 #!/usr/bin/env ruby 
 require 'sqlite3'
+require 'pry'
 
 require_relative "../lib/interactive_record.rb"
 require_relative "../lib/song.rb"
 require_relative "../config/environment.rb"
 
+binding.pry
 song = Song.new(name: "Hello", album: "25")
 puts "song name: " + song.name
 puts "song album: " + song.album
