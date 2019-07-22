@@ -12,5 +12,5 @@ puts "song album: " + song.album
 song.save
 
 puts Song.find_by_name("Hello")
-
+# binding.pry
 # DB[:conn].execute("SELECT * FROM songs")
