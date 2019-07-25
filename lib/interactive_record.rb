@@ -34,6 +34,7 @@ class InteractiveRecord
 
   def table_name_for_insert
     self.class.table_name
+    puts "nothing to add here."
   end
 
   def values_for_insert
