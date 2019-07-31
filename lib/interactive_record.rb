@@ -1,6 +1,7 @@
 require_relative "../config/environment.rb"
 require 'active_support/inflector'
 
+#review how the pragma is used
 class InteractiveRecord
 
   def self.table_name
