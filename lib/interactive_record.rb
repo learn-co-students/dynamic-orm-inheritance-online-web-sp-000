@@ -53,4 +53,6 @@ def self.find_by_name(name)
   DB[:conn].execute(sql, name)
 end
 
+#this seems really useful for future. not sure why this is a lab or code along since there aren't instructions.
+
 end
