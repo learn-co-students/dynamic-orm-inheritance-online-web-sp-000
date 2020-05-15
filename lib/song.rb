@@ -7,3 +7,4 @@ class Song < InteractiveRecord
   end
 
 end
+# the only code the Song class needs to contain is the code to create the attr_accessors specific to itself
