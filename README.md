@@ -16,7 +16,7 @@ that allow a given Ruby class and instances to communicate with a database are
 This means we can use such methods again and again. We can define them in only
 one place and simply make them available, via inheritance, to any other class in
 our program.
-
+##
 ## The Super Class
 
 In this repo, in the `lib` directory, you'll see the `interactive_record.rb`
