@@ -6,4 +6,6 @@ class Song < InteractiveRecord
     attr_accessor col_name.to_sym
   end
 
+  # creates the attr_accessors specific to Song class
+
 end
