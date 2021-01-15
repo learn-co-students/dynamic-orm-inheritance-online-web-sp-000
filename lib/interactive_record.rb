@@ -35,7 +35,7 @@ class InteractiveRecord
   def table_name_for_insert
     self.class.table_name
   end
-
+#dsf
   def values_for_insert
     values = []
     self.class.column_names.each do |col_name|
