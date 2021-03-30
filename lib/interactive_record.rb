@@ -53,4 +53,8 @@ def self.find_by_name(name)
   DB[:conn].execute(sql, name)
 end
 
+def i_did_it
+  puts "I did it, yeah!!"
+end
+
 end
