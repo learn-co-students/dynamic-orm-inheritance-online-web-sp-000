@@ -7,3 +7,6 @@ class Song < InteractiveRecord
   end
 
 end
+
+#Song class (child class) only needs to create the attr_accessors
+#everything is inherited from the super class (InteractiveRecord)
