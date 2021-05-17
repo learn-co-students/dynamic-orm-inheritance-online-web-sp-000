@@ -11,5 +11,5 @@ puts "song album: " + song.album
 song.save
 
 puts Song.find_by_name("Hello")
-
+#find_by_name tests that the song was saved
 # DB[:conn].execute("SELECT * FROM songs")
